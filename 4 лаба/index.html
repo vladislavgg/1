@@ -29,4 +29,32 @@
         <input type="submit" value="Отправить заявку">
         <input type="reset" value="Очистить">
     </form>
+    
+    <h2>Форма анкеты "Опросник"</h2>
+    <form action="#" method="get">
+        <label for="age">Возраст:</label>
+        <input type="text" id="age" name="age" maxlength="3"><br><br>
+        
+        <label for="city">Город:</label>
+        <select id="city" name="city">
+            <option value="spb">Санкт-Петербург</option>
+            <option value="msk" selected>Москва</option>
+        </select><br><br>
+        
+        <p>Уровень заселенности вашего города:</p>
+        <input type="radio" id="ud1" name="udovl" value="high">
+        <label for="ud1">Высокий</label><br>
+        <input type="radio" id="ud2" name="udovl" value="low">
+        <label for="ud2">Низкий</label><br><br>
+        
+        <input type="checkbox" id="news" name="news">
+        <label for="news">Получать новости</label><br><br>
+        
+        <label for="feedback">Отзыв:</label><br>
+        <textarea id="feedback" name="feedback" rows="3" cols="30"></textarea><br><br>
+        
+        <input type="submit" value="Отправить анкету">
+    </form>
+
+    
 
