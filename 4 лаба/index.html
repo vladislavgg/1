@@ -6,4 +6,27 @@
 </head>
 <body>
     <h1>Формы:</h1>
+    <h2>Форма заявки на услугу</h2>
+    <form action="#" method="post">
+        <label for="fio">ФИО:</label>
+        <input type="text" id="fio" name="fio"><br><br>
+        
+        <label for="emails">Email:</label>
+        <input type="email" id="emails" name="emails"><br><br>
+        
+        <p>Тип услуги:</p>
+        <input type="radio" id="usl1" name="usluga" value="ремонт">
+        <label for="usl1">Ремонт</label><br>
+        <input type="radio" id="usl2" name="usluga" value="доставка">
+        <label for="usl2">Доставка</label><br><br>
+        
+        <input type="checkbox" id="sogl" name="sogl" checked>
+        <label for="sogl">Согласие на обработку данных</label><br><br>
+        
+        <label for="comments">Комментарий:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="30"></textarea><br><br>
+        
+        <input type="submit" value="Отправить заявку">
+        <input type="reset" value="Очистить">
+    </form>
 
